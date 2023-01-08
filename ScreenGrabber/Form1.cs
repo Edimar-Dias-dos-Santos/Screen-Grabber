@@ -27,33 +27,33 @@ namespace ScreenGrabber
             this.BackgroundImage = bitMap;
         }
 
-        private void grabBtn_Click(object sender, EventArgs e)
+
+        private void GrabBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
             Thread.Sleep(1000);
             GrabScreen();
             this.Show();
-            saveBtn.Enabled =  true;
-          
+            saveBtn.Enabled = true;
+
         }
 
-        private void saveBtn_Click(object sender, EventArgs e)
+        private void SaveBtn_Click(object sender, EventArgs e)
         {
             if (this.BackgroundImage == null)
             {
-                MessageBox.Show("No image to save!");
+                MessageBox.Show("No image to save");
             }
             else
             {
-                this.BackgroundImage.Save("testgrab.bpm");
+                this.BackgroundImage.Save("teste.bpm");
             }
         }
 
-        private void clearBtn_Click(object sender, EventArgs e)
+        private void ClearBtn_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = null;
             saveBtn.Enabled = false;
-        
         }
     }
 }

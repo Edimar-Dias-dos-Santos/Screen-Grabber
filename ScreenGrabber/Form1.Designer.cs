@@ -44,7 +44,7 @@
             this.grabBtn.TabIndex = 0;
             this.grabBtn.Text = "Grab";
             this.grabBtn.UseVisualStyleBackColor = false;
-            this.grabBtn.Click += new System.EventHandler(this.grabBtn_Click);
+            this.grabBtn.Click += new System.EventHandler(this.GrabBtn_Click);
             // 
             // clearBtn
             // 
@@ -57,7 +57,7 @@
             this.clearBtn.TabIndex = 1;
             this.clearBtn.Text = "Clear";
             this.clearBtn.UseVisualStyleBackColor = false;
-            this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
+            this.clearBtn.Click += new System.EventHandler(this.ClearBtn_Click);
             // 
             // saveBtn
             // 
@@ -70,7 +70,7 @@
             this.saveBtn.TabIndex = 2;
             this.saveBtn.Text = "Save";
             this.saveBtn.UseVisualStyleBackColor = false;
-            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
+            this.saveBtn.Click += new System.EventHandler(this.SaveBtn_Click);
             // 
             // Form1
             // 

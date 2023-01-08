@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenGrabber", "ScreenGrabber\ScreenGrabber.csproj", "{9AD021CC-B595-497E-A355-4261C3E2DBEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenGrabberV2", "ScreenGrabberV2\ScreenGrabberV2.csproj", "{1BD4E8C6-4229-45EA-9612-10D2615633C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9AD021CC-B595-497E-A355-4261C3E2DBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AD021CC-B595-497E-A355-4261C3E2DBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AD021CC-B595-497E-A355-4261C3E2DBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD4E8C6-4229-45EA-9612-10D2615633C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD4E8C6-4229-45EA-9612-10D2615633C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD4E8C6-4229-45EA-9612-10D2615633C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD4E8C6-4229-45EA-9612-10D2615633C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
