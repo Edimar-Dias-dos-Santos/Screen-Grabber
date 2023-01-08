@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9AD021CC-B595-497E-A355-4261C3E2DBEE}</ProjectGuid>
+    <ProjectGuid>{1BD4E8C6-4229-45EA-9612-10D2615633C7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ScreenGrabber</RootNamespace>
-    <AssemblyName>ScreenGrabber</AssemblyName>
+    <RootNamespace>ScreenGrabberV2</RootNamespace>
+    <AssemblyName>ScreenGrabberV2</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
